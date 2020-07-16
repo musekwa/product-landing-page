@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Product Landing Page</title>
 </head>
@@ -16,37 +16,82 @@
             <a class="nav-link" href="#pricing">Pricing</a>
         </nav>
     </header>
-    <h2 style="text-align: center">Handcrafted, home-made masterpieces</h2>
-    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+    <h2 class="main-part" style="text-align: center">Handcrafted, home-made masterpieces</h2>
+    <form class="main-part" id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
         <input type="email" name="email" id="email" placeholder="Enter your email address">
         <input type="submit" name="submt" id="submit" value="GET STARTED">
     </form>
-    <div id="features">
+    <div class="main-part" id="features">
+        <hr>
         <div>
             <h2>Premium Materials</h2>
             <p>Our trombones use the shinest brass which is sourced locally.
                 This will increase the longevity of your purchase.
             </p>
         </div>
+        <hr>
         <div>
             <h2>Fast Shipping</h2>
             <p>We make sure you receive your trombone as soon as we have finished making it.
                 We also provide free returns if you are not satisfied.
             </p>
         </div>
+        <hr>
         <div>
             <h2>Quality Assurance</h2>
             <p>For every purchase, we will ensure there are no damages or faults and we will check and test the pitch of
                 your instrument.
             </p>
         </div>
+        <hr>
     </div>
-    <div id="how-it-works">
+    <div class="main-part" id="how-it-works">
         <video id="video" src="videos/osg_TPO_052_r720P.mp4" controls>My Video</video>
     </div>
-
-    <div id="pricing">
-
+    <br>
+    <div class="main-part" id="pricing">
+        <div class="quality" id="tenor">
+            <header>TENOR TROMBONE</header>
+            <p><strong>$600</strong>
+                <br>Lorem ipsum 
+                <br>Lorem ipsum 
+                <br>Lorem ipsum dolor 
+                <br>Lorem ipsum 
+            </p>
+            <input type="submit" name="submit" id="submit1" value="SELECT">
+        </div>
+        <div class="quality" id="bass">
+            <header>BASS TROMBONE</header>
+            <p><strong>$900</strong>
+                <br>Lorem ipsum 
+                <br>Lorem ipsum 
+                <br>Lorem ipsum dolor 
+                <br>Lorem ipsum 
+            </p>
+            <input type="submit" name="submit" id="submit2" value="SELECT">
+        </div>
+        <div class="quality" id="valve">
+            <header>VALVE TROMBONE</header>
+            <p><strong>$1200</strong>
+                <br>Lorem ipsum 
+                <br>Lorem ipsum 
+                <br>Lorem ipsum dolor 
+                <br>Lorem ipsum 
+            </p>
+            <input type="submit" name="submit" id="submit3" value="SELECT">
+        </div>
     </div>
+    <br>
+    <footer id="footer">
+        <div id="foot">
+            <a class="footer-link" href="#">Privacy</a>
+            <a class="footer-link" href="#">Terms</a>
+            <a class="footer-link" href="#">Contact</a>
+        </div>
+        <br>
+        <div>
+            &copy;2020 - Original Trombones
+        </div>
+    </footer>
 </body>
 </html>

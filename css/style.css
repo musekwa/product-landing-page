@@ -200,6 +200,13 @@ input[placeholder="Enter your email address"]{
         margin: auto;
     }
 
+    #footer {
+        width: 100%;
+    }
 
+    #title  {
+        font-size: 20px;
+        width: 100%;
+    }
 
 }
